@@ -51,3 +51,29 @@ Three-tier applications are most widely used in the industry. It consist of a us
 ![](D:\Notes\System Design\Software Architecture 101\media\3TA.jpg)
 
 So, if we take a blog website as an example, the UI would be written in HTML, CSS and JavaScript, the backend would run on a server like apache or nginx and the database would be a MySQL. A three tier architecture works best for simple use-cases.
+
+## N-Tier
+
+An N-Tier application is an application which has more than three components involved. The components in an N-Tier Application include:-
+
+- Cache
+- Message queues for asynchronous behavior
+- Load balancer
+- Search servers for searching through massive amounts of data
+- Components involved in processing massive amounts of data
+- Components running heterogeneous tech commonly known as web services etc.
+
+## Why do we have so many Tiers?
+
+Two software design principles ae key to explaining this - Single Responsibility Principle and Separation of Concerns.
+
+### Single Responsibility Principle
+
+This principle means giving just one responsibility to a component and letting it execute it with perfection. This approach gives us a lot of flexibility and makes management easier, since maintaining one component won't affect others.
+
+### Separation of Concern
+
+Separation of concerns kind of means the same thing, be concerned about your work only & stop worrying about the rest of the stuff. Keeping components separate makes the reusable. 
+
+Different services can use the same database, the messaging server or any component as long as they are not tightly coupled with each other. Having loosely coupled components is the way to go. The approach makes scaling the service easy in future when things grow beyond a certain level.
+
