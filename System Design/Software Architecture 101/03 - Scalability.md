@@ -4,7 +4,7 @@
 
 Scalability means the ability of the application to handle and withstand increased workload without sacrificing latency. If an app takes x seconds to respond to a user request, then it should to the same to each of the million concurrent user request on the application. The backend should not crumble under the load of millions of concurrent requests. It should scale well when subjected to a heavy traffic load and should maintain the latency of the system.
 
-![](D:\Notes\System Design\Software Architecture 101\media\scale.jpg)
+![](./media/scale.jpg)
 
 ### Latency
 

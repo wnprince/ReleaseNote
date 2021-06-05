@@ -6,7 +6,7 @@ A Tier is a logical separation of components in an application. Here, components
 
 The different components that make up a web service are displayed in the image below:-
 
-![](D:\Notes\System Design\Software Architecture 101\media\WAA.jpg)
+![](./media/WAA.jpg)
 
 The different tiers of applications include:-
 
@@ -19,7 +19,7 @@ The different tiers of applications include:-
 
 A single-tier application is an application where the user interface, backend business logic and the database, all reside in the same machine. Typical examples if a single tier application include MS Office or PC Games.
 
-![](D:\Notes\System Design\Software Architecture 101\media\STA.jpg)
+![](./media/STA.jpg)
 
 ### Advantages
 
@@ -36,7 +36,7 @@ A single-tier application is an application where the user interface, backend bu
 
 Two -tier applications consist of a *client*  and a *server*. The client would contain the user interface and business logic in one machine and a backend server would consist of a database running on different machine.
 
-![](D:\Notes\System Design\Software Architecture 101\media\TTA.jpg)
+![](./media/TTA.jpg)
 
 ### Why Two Tier Application
 
@@ -48,7 +48,7 @@ The question is legit but there are use cases where two tier architecture might 
 
 Three-tier applications are most widely used in the industry. It consist of a user interface, backend server and a database all of which lie on different machines. They are physically separated.
 
-![](D:\Notes\System Design\Software Architecture 101\media\3TA.jpg)
+![](./media/3TA.jpg)
 
 So, if we take a blog website as an example, the UI would be written in HTML, CSS and JavaScript, the backend would run on a server like apache or nginx and the database would be a MySQL. A three tier architecture works best for simple use-cases.
 
